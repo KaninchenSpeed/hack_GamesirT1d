@@ -53,7 +53,7 @@ class T1D:
                 )
 
 if __name__ == "__main__":
-    controller = T1D('C6:86:A1:05:42:54') # Example address
+    controller = T1D('C6:86:A1:01:B7:90') # Example address
     while 1:
         if controller.get_state():
             print(controller)

@@ -6,7 +6,7 @@ from pynput.keyboard import Key, Controller
 
 keyboard = Controller() 
 
-my_gamesir = Peripheral('C7:06:A1:09:0B:XX', 'random') # Put your MAC address here 'C7:06:A1:09:0B:XX' replace
+my_gamesir = Peripheral('C6:86:A1:01:B7:90', 'random') # Put your MAC address here 'C7:06:A1:09:0B:XX' replace
 
 services = my_gamesir.getServices() # get bluetooth service from device
 
